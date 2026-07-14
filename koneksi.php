@@ -3,7 +3,7 @@ $host = getenv('mysql');
 $user = getenv('root');
 $pass = getenv('LWfTBEhhjuTvIPJHrtJaWaXdkLRNvWfw');
 $db   = getenv('railway');
-$port = ('3306');
+$port = getenv('3306');
 
 try {
     // Kita pakai pa9rameter port karena Railway tidak pakai port default standar
