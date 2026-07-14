@@ -1,5 +1,2 @@
-[providers]
-php = {}
-
-[phases.setup]
-nixpkgs = ["php82", "php82Extensions.pdo", "php82Extensions.pdo_mysql"]
+[providers.php]
+extensions = ["pdo", "pdo_mysql", "mysqli"]
