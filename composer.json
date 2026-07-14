@@ -1,0 +1,5 @@
+{
+  "requir": {
+    "ext.pdo_mysql: "*"
+  }
+}
