@@ -1,12 +1,12 @@
 <?php
-$host = "mysql";
-$user = "root";
-$pass = "LWfTBEhhjuTvIPJHrtJaWaXdkLRNvWfw";
-$db   = "railway";
-$port = "3306";
+$host = getenv('mysql');
+$user = getenv('root');
+$pass = getenv('LWfTBEhhjuTvIPJHrtJaWaXdkLRNvWfw');
+$db   = getenv('railway');
+$port = ('3306');
 
 try {
-    // Kita pakai parameter port karena Railway tidak pakai port default standar
+    // Kita pakai pa9rameter port karena Railway tidak pakai port default standar
     $koneksi = new PDO("mysql:host=$host;port=$port;dbname=$db", $user, $pass);
     $koneksi->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 } catch (PDOException $e) {
