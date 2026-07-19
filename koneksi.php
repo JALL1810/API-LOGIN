@@ -1,7 +1,7 @@
 <?php
 $host = "mysql";
 $user = "root";
-$pass = "LWfTBEhhjuTvIPJHrtJaWaXdkLRNvWfw";
+$pass = "fIACIEEtKmuEOqkZpFeUYRNKsvQAlBno";
 $db   = "railway";
 $port = "3306";
 
